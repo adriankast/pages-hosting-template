@@ -1,5 +1,45 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My GitHub pages homepage</title>
+
+    <!-- Preview for Open Graph supported links -->
+    <meta property="og:title" content="My GitHub pages homepage" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://adriankast.github.io/pages-hosting-template/"
+    />
+    <meta
+      property="og:description"
+      content="A template to build homepages with GitHub pages"
+    />
+    <!--<meta property="og:image" content="image.png" />-->
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
   <body>
-    <h1>GO</h1>
+    <header><h1>A great homepage</h1></header>
+    <main>
+      <div style="display: grid; grid-template-columns: auto 1fr">
+        <div>
+          <div role="button">Xing</div>
+          <button>LinkedId</button>
+          <button>Twitter</button>
+        </div>
+        <div>
+          <img width="320" height="400" src="./profile.jpg" />
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div style="display: flex; justify-content: center; gap: 12px">
+        <div><a href="/imprint">Imprint</a></div>
+        |
+        <div><a href="/privacy">Privacy</a></div>
+      </div>
+    </footer>
   </body>
 </html>
