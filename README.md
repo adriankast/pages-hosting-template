@@ -1,4 +1,4 @@
-# TODO header
+# pages-hosting-template
 
 ## GitHub Pages
 
