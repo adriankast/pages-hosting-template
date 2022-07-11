@@ -42,16 +42,20 @@ main > div {
   align-content: flex-start;
   align-items: flex-start;
   order: 2;
+  margin-block-start: 8px;
 }
 @media (max-width: 520px) {
   .buttonContainer {
     justify-content: center;
   }
+  .buttonContainer > div {
+    width: 80%;
+  }
   .imgContainer {
     order: 0;
   }
   .imgContainer > img {
-    width: 80%;
+    width: 90%;
     height: auto;
   }
   main > div {
@@ -61,6 +65,11 @@ main > div {
 
 footer {
   background-color: azure;
+}
+.legalLinkContainer {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
 }
 
 a {
