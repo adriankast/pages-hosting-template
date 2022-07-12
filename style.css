@@ -66,10 +66,17 @@ main > div {
 footer {
   background-color: azure;
 }
+footer a {
+  text-decoration: none;
+}
 .legalLinkContainer {
   display: flex;
   justify-content: center;
   gap: 12px;
+}
+a.current,
+footer a:hover {
+  text-decoration: underline;
 }
 
 a {
